@@ -1,0 +1,202 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.reapp_ghana_project"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <queries>
+13-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-25:15
+14        <package android:name="com.google.android.apps.maps" />
+14-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-64
+14-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-61
+15        <package android:name="com.google.android.apps.mapslite" />
+15-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-68
+15-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:11:18-65
+16        <package android:name="com.autonavi.minimap" />
+16-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-56
+16-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:12:18-53
+17        <package android:name="com.baidu.BaiduMap" />
+17-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-54
+17-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:13:18-51
+18        <package android:name="com.waze" />
+18-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-44
+18-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:14:18-41
+19        <package android:name="ru.yandex.yandexnavi" />
+19-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-56
+19-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:15:18-53
+20        <package android:name="ru.yandex.yandexmaps" />
+20-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-56
+20-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:16:18-53
+21        <package android:name="com.citymapper.app.release" />
+21-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-62
+21-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:17:18-59
+22        <package android:name="com.mapswithme.maps.pro" />
+22-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-59
+22-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:18:18-56
+23        <package android:name="net.osmand" />
+23-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-46
+23-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:19:18-43
+24        <package android:name="net.osmand.plus" />
+24-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-51
+24-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:20:18-48
+25        <package android:name="ru.dublgis.dgismobile" />
+25-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-57
+25-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:21:18-54
+26        <package android:name="com.tencent.map" />
+26-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:9-51
+26-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:22:18-48
+27        <package android:name="com.here.app.maps" />
+27-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-53
+27-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:23:18-50
+28        <package android:name="com.huawei.maps.app" />
+28-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-55
+28-->[:map_launcher] /home/amar/StudioProjects/reapp_ghana_project/build/map_launcher/intermediates/merged_manifest/release/AndroidManifest.xml:24:18-52
+29
+30        <intent>
+30-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:25:9-27:18
+31            <action android:name="android.media.browse.MediaBrowserService" />
+31-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:13-79
+31-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:26:21-76
+32        </intent>
+33        <intent>
+33-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:28:9-30:18
+34            <action android:name="androidx.media2.session.MediaSessionService" />
+34-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:13-82
+34-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:29:21-79
+35        </intent>
+36        <intent>
+36-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:31:9-33:18
+37            <action android:name="androidx.media2.session.MediaLibraryService" />
+37-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:13-82
+37-->[androidx.media2:media2-session:1.2.0] /home/amar/.gradle/caches/transforms-3/aa7263188b29434019ae8934cbefd4da/transformed/jetified-media2-session-1.2.0/AndroidManifest.xml:32:21-79
+38        </intent>
+39    </queries>
+40
+41    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+41-->[com.google.android.exoplayer:exoplayer-core:2.18.5] /home/amar/.gradle/caches/transforms-3/b8bd4bcbe7320b31658631ac6733d805/transformed/jetified-exoplayer-core-2.18.5/AndroidManifest.xml:24:5-79
+41-->[com.google.android.exoplayer:exoplayer-core:2.18.5] /home/amar/.gradle/caches/transforms-3/b8bd4bcbe7320b31658631ac6733d805/transformed/jetified-exoplayer-core-2.18.5/AndroidManifest.xml:24:22-76
+42
+43    <permission
+43-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+44        android:name="com.example.reapp_ghana_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+44-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+45        android:protectionLevel="signature" />
+45-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+46
+47    <uses-permission android:name="com.example.reapp_ghana_project.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+47-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+47-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+48
+49    <application
+50        android:name="android.app.Application"
+50-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:7:9-42
+51        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+51-->[androidx.core:core:1.9.0] /home/amar/.gradle/caches/transforms-3/6710ee2e3546b398da00e75003abfc33/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+52        android:icon="@mipmap/ic_launcher"
+52-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:8:9-43
+53        android:label="reapp_ghana_project" >
+53-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:6:9-44
+54        <activity
+54-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:9:9-29:20
+55            android:name="com.example.reapp_ghana_project.MainActivity"
+55-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:10:13-41
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+56-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:14:13-163
+57            android:exported="true"
+57-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:11:13-36
+58            android:hardwareAccelerated="true"
+58-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:15:13-47
+59            android:launchMode="singleTop"
+59-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:12:13-43
+60            android:theme="@style/LaunchTheme"
+60-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:13:13-47
+61            android:windowSoftInputMode="adjustResize" >
+61-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:16:13-55
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+69-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:21:13-24:17
+70                android:name="io.flutter.embedding.android.NormalTheme"
+70-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:22:15-70
+71                android:resource="@style/NormalTheme" />
+71-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:23:15-52
+72
+73            <intent-filter>
+73-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:25:13-28:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:26:17-68
+74-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:26:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:27:17-76
+76-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:27:27-74
+77            </intent-filter>
+78        </activity>
+79        <!--
+80             Don't delete the meta-data below.
+81             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+82        -->
+83        <meta-data
+83-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:32:9-34:33
+84            android:name="flutterEmbedding"
+84-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:33:13-44
+85            android:value="2" />
+85-->/home/amar/StudioProjects/reapp_ghana_project/android/app/src/main/AndroidManifest.xml:34:13-30
+86
+87        <provider
+87-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+89            android:authorities="com.example.reapp_ghana_project.flutter.image_provider"
+89-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+90            android:exported="false"
+90-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+92            <meta-data
+92-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker_android] /home/amar/StudioProjects/reapp_ghana_project/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+95        </provider>
+96
+97        <activity
+97-->[:url_launcher_android] /home/amar/StudioProjects/reapp_ghana_project/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+98            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+98-->[:url_launcher_android] /home/amar/StudioProjects/reapp_ghana_project/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+99            android:exported="false"
+99-->[:url_launcher_android] /home/amar/StudioProjects/reapp_ghana_project/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+100            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+100-->[:url_launcher_android] /home/amar/StudioProjects/reapp_ghana_project/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+101
+102        <uses-library
+102-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+103            android:name="androidx.window.extensions"
+103-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+105        <uses-library
+105-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+106            android:name="androidx.window.sidecar"
+106-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+107            android:required="false" />
+107-->[androidx.window:window:1.0.0-beta04] /home/amar/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+108    </application>
+109
+110</manifest>
