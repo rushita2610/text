@@ -330,42 +330,6 @@ class _DrawerScreenState extends State<DrawerScreen> {
                                           ),
                                         );
                                       }
-                                      // else if (menuname[index] == "Categories") {
-                                      //   Navigator.of(context).push(
-                                      //     MaterialPageRoute(
-                                      //       builder: (context) =>
-                                      //           CategoriesScreen(),
-                                      //     ),
-                                      //   );
-                                      // } else if (menuname[index] == "New Ads") {
-                                      //   Navigator.of(context).push(
-                                      //     MaterialPageRoute(
-                                      //       builder: (context) => Makenewad_Screen(
-                                      //         categories: '',
-                                      //         subcategory: '',
-                                      //       ),
-                                      //     ),
-                                      //   );
-                                      // } else if (menuname[index] == "My Ads") {
-                                      //   Navigator.of(context).push(
-                                      //     MaterialPageRoute(
-                                      //       builder: (context) => Myads_Screen(),
-                                      //     ),
-                                      //   );
-                                      // } else if (menuname[index] == "My Wishlist") {
-                                      //   Navigator.of(context).push(
-                                      //     MaterialPageRoute(
-                                      //       builder: (context) => Wishlist_Screen(),
-                                      //     ),
-                                      //   );
-                                      // } else if (menuname[index] == "My Profile") {
-                                      //   Navigator.of(context).push(
-                                      //     MaterialPageRoute(
-                                      //       builder: (context) =>
-                                      //           MyProfile_Screen(),
-                                      //     ),
-                                      //   );
-                                      // }
                                     },
                                     child: Container(
                                       // height: 60,
